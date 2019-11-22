@@ -12,12 +12,12 @@
     自动备份脚本，并且打印日志。
 
 ## pgrman_conf.json
-{  
-    "host":"192.168.119.83",  
-    "It is recommended that the data directory and backup directory be placed on different disks !!!":"",  
-    "data_path":"/home/pgdata",
-    "backup_path":"/home/pgbackup",
-    "port": "5434",
-    "user": "postgres",
-    "password": "postgres"
-    }
+{</br>  
+    "host":"192.168.119.83",</br>
+    "It is recommended that the data directory and backup directory be placed on different disks !!!":"",</br>
+    "data_path":"/home/pgdata",</br>
+    "backup_path":"/home/pgbackup",</br>
+    "port": "5434",</br>
+    "user": "postgres",</br>
+    "password": "postgres"</br>
+    }</br>
