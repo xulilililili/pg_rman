@@ -22,4 +22,5 @@ pg_rman自动安装脚本，需要提前准备pgrman和pg-libs的rpm安装包。
     "user": "postgres",  
     "password": "postgres"  
 }
-```A
+```
+
