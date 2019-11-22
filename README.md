@@ -1,6 +1,6 @@
 # pg_rman
     pg_rman自动安装自动备份脚本，自动化操作 
-    pg_rman is  installed locally, postgresql is installed in k8s or docker 
+    pg_rman is installed locally, postgresql is installed in k8s or docker 
 ## 文档说明
 ### （1）pgrman_conf.json
     自定义pgrman的配置文件，包含主机IP、pgdata路径、备份路径(建议pgdata和备份路径在不同磁盘下)、端口、pg用户名和密码。
@@ -12,12 +12,12 @@
     自动备份脚本，并且打印日志。
 
 ## pgrman_conf.json
-{
-  "host":"192.168.119.83",
-      "It is recommended that the data directory and backup directory be placed on different disks !!!":"",
+{  
+    "host":"192.168.119.83",  
+    "It is recommended that the data directory and backup directory be placed on different disks !!!":"",  
     "data_path":"/home/pgdata",
-      "backup_path":"/home/pgbackup",
+    "backup_path":"/home/pgbackup",
     "port": "5434",
     "user": "postgres",
     "password": "postgres"
-}
+    }
