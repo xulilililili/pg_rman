@@ -12,8 +12,9 @@
     自动备份脚本，并且打印日志。
 
 ## pgrman_conf.json
-{</br>
-  "host":"192.168.119.83",</br>
+(```)
+{
+  "host":"192.168.119.83",
   "It is recommended that the data directory and backup directory be placed on different disks !!!":"",</br>
   "data_path":"/home/pgdata",</br>
   "backup_path":"/home/pgbackup",</br>
@@ -21,3 +22,4 @@
   "user": "postgres",</br>
   "password": "postgres"</br>
 }</br>
+(```)
